@@ -5,9 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
-import list from './State';
+import combine from './states/Edit';
 
-const store = createStore(list);
+const store = createStore(combine);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

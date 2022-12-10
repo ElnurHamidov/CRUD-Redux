@@ -16,7 +16,17 @@ export default function list(state=[], action){
         
         case 'all':
             return [];
-
+        
+        case 'edit':
+            const arr2 = state.map(e=>{
+                if(e.id !== action.payload.id){
+                    return e;
+                }else{
+                    return action.payload;
+                }
+            })
+            return arr2;
+        
         default: 
             return state;
                

@@ -100,3 +100,7 @@ tr .btn{
 .btn-all{
     width: 100%;
 }
+
+.knopka:hover{
+    opacity: 0.5;
+}

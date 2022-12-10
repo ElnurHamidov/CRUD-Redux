@@ -6,7 +6,7 @@ import {useDispatch} from 'react-redux';
 export default function Lists(){
 
     const dispatch = useDispatch();
-    const state = useSelector(state=> state);
+    const state = useSelector(state=> state.list);
     if(state.length !== 0 ){
     return(
         <>

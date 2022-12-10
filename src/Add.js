@@ -17,8 +17,8 @@ export default function Add(){
 
         if(!values.surname){
             errors.surname="required";
-        }else if(values.surname.length<2 || values.surname.length>10){
-            errors.surname="required";
+        }else if(values.surname.length<2){
+            errors.surname="should be at least 3 symbols";
         }
 
         if(!values.age){
