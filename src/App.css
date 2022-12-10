@@ -104,3 +104,115 @@ tr .btn{
 .knopka:hover{
     opacity: 0.5;
 }
+
+@media (min-width: 2550px){
+    .table{
+        width: 90%;
+        font-size: 150%;
+    }
+
+    .header{
+        font-size: 150%;
+    }
+
+    .wrapper{
+        min-height: 1085px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .table{
+        width: 60%;
+    }
+
+    .form form{
+        width: 65%;
+    }
+}
+
+@media (max-width: 775px){
+    .lists{
+        margin-top: 10%;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .table{
+        width: 70%;
+    }
+}
+
+@media (max-width: 435px){
+    .lists{
+        margin-top: 20%;
+    }
+
+    .table{
+        width: 95%;
+        font-size: 80%;
+    }
+
+    .btn-all{
+        font-size: 70%;
+    }
+
+    .navbar{
+        font-size: 60%;
+    }
+
+    .navbar a{
+        display: block;
+        height: 30px;
+        width: 70px;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .form form{
+        width: 85%;
+        font-size: 80%;
+    }
+
+    .form form button{
+        font-size: 80%;
+    }
+
+    .form input{
+        font-size: 80%;
+    }
+
+    .navbar .btn{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .add .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 330px){
+    .table{
+        width: 95%;
+        font-size: 70%;
+    }
+
+    .form form{
+        width: 95%;
+    }
+
+     .navbar{
+        align-items: center;
+    }
+}

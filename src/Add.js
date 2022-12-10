@@ -49,7 +49,7 @@ export default function Add(){
         <div className="add">
             <nav className="navbar">
             <p className="navbar-title">Add</p>
-            <Link to="/" ><button className="btn btn-success my-2 my-sm-0" type="button" style={{width : '100%' }}>Back</button></Link> 
+            <Link to="/" ><button className="btn btn-success" type="button" style={{width : '100%' }}>Back</button></Link> 
         </nav>
         <div className="form">
             <form name='form' onSubmit={formik.handleSubmit} onReset={formik.handleReset}>
