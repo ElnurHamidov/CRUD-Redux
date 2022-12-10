@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+    min-height: 753px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, .5);
+}
+
+.main{
+    flex: 1 0 auto;
+}
+
+.footer{
+    flex: 0 1 auto;
+    font-weight: bold;
+
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
+body{
+    background: url('./images/background2.webp') center / cover no-repeat scroll;
+}
+
+.navbar{
+    color: #fff;
+    background:rgba(0, 0, 0, .8);
+    padding: 0 40px;
+}
+
+.navbar a{
+    display: block;
+    width: 15%;
+}
+
+.navbar button{
+    width: 100px;
+}
+
+.navbar-title{
+    font-size: 200%;
+}
+
+.navbar .btn{
+    width: 20%;
+}
+
+.lists{
+    margin-top: 7%;
+    text-align: center;
+    color: #fff;
+}
+
+.form{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form label{
+    color: #fff;
+}
+
+.form input{
+    margin-bottom: 2%;
+}
+
+.form button{
+    width: 100%;
+    display: block;
+    margin: 4% auto;
+}
+
+.form form{
+    width: 30%;
+    margin: 70px auto;
+}
+
+.table{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    /* text-align: center; */
+}
+
+
+tr .btn{
+    width: 100%;
+}
+
+.btn-all{
+    width: 100%;
+}
